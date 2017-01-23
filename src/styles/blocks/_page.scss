@@ -1,0 +1,19 @@
+$page-background-color: #2a2734;
+$page-font-family: 'Arial', sans-serif;
+$page-font-weight: 400;
+$page-font-size: 10px;
+$page-font-color: #8a75f5;
+
+.page {
+  &_theme_sky {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: $page-background-color;
+    color: $page-font-color;
+    font-weight: $page-font-weight;
+    font-size: $page-font-size;
+    font-family: $page-font-family;
+    -webkit-font-smoothing: antialiased;
+  }
+}

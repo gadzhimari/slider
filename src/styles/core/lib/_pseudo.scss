@@ -1,0 +1,6 @@
+@mixin pseudo($width, $height, $content: '') {
+  position: absolute;
+  content: $content;
+  width: $width;
+  height: $height;
+}
